@@ -10,6 +10,7 @@ source:
   sha256: 5f878a6996a7d6a9bf7a7617baa7ed1a1a9249f803cbc00874ad8c74ff82b639
 
 build:
+  noarch: python
   number: 2
   entry_points:
     - saws = saws.main:cli
